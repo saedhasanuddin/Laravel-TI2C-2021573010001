@@ -30,10 +30,6 @@ Route::get('/mahasiswa',function (){
     return view('mahasiswa'.["mahasiswa01"=>"Musaed Hasanuddin"]);
 });
 
-Route::get('/',function (){
-    return view ('welcome');
-});
-
 Route::get('/hello',function(){
     return'Hello word';
 });
